@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dribbble Sign Up</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+            <h1 style="  font-family: Apple Chancery, cursive; color:#bd810a;" >dribbble</h1>
+            <p style="  font-family: serif; color:#bd810a; font-size: 30px;"><b>Discover the world's top <br>Designers & Creatives.</b></p>
+            <div class="image-container">
+                <img src="./styles/images/home.png" alt="" class="home-image">
+            </div>
+            <p class="image-credit" style="  font-family: fangsong; color:#bd810a;">Art by <u>Peter Tarka</u></p>
+        </div>
+        <div class="right-section">
+            <div class="top-right">
+                <p class="member-link">Already a member? <a href="#">Sign In</a></p>
+            </div>
+            <h2 class="sign-up">Sign up to Dribbble</h2>
+            <div class="form-container">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" value="" placeholder="Name" required>
+                        <div id="name-error" class="error-message" style="display: none;"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <input type="text" id="username" value="" class="error" placeholder="Username" required>
+                        <div id="username-error" class="error-message" style="display: none;"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" value="" placeholder="someone@gmail.com" required>
+                        <div id="email-error" class="error-message" style="display: none;"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" placeholder="6+ characters" required>
+                        <div id="password-error" class="error-message" style="display: none;"></div>
+                    </div>
+                    <div class="form-groups">
+                        <input type="checkbox" id="terms" required>
+                        <label for="terms">Creating an account means you're okay with our Terms of <br>Service, Privacy Policy, and our default Notification Settings.</label>
+                    </div>
+                    <button type="submit" class="create-account-btn">Create Account</button>
+                </form>
+            </div>
+            <p class="captcha-info">This site is protected by reCAPTCHA and the Google <br>Privacy Policy and Terms of Service apply.</p>
+        </div>
+    </div>
+    <script src="./login.js"></script>
+</body>
+</html>

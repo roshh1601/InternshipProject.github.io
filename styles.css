@@ -1,0 +1,109 @@
+/* Add your CSS styles here */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container {
+    display: flex;
+    
+}
+
+.left-section {
+    padding: 20px;
+    font-size: 15px;
+    max-width: 50%;
+    background-color: #f6d289;
+}
+
+.right-section {
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* max-height: 80vh; */
+    width: 140vh;
+}
+
+.home-image {
+    max-width: 91%;
+    max-height: 50%;
+    border-radius: 5px;
+}
+
+.member-link {
+    margin: 0;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.form-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 40px;
+    /* display: block; */
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+input[type="text"] {
+    width: 40%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+input[type="password"],
+input[type="email"] {
+    width: 80%;
+    margin-top: 2px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.create-account-btn {
+    background-color: #ea4c89;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 40%;
+}
+
+.create-account-btn:hover {
+    background-color: #ff0066;
+}
+
+.captcha-info {
+    font-size: 12px;
+    color: #1f1e1e;
+    margin-top: 30px;
+    margin-left: 75px;
+    /* text-align: center; */
+}
+
+
+/* Add this CSS for inline checkbox and label */
+.form-groups label {
+    display: inline;
+    margin-top: 10px; /* Adjust as needed */
+}
+
+.form-groups input[type="checkbox"] {
+    display: inline-block;
+    margin-right: 5px; /* Adjust spacing between checkbox and label */
+}

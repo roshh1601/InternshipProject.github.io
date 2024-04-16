@@ -1,0 +1,120 @@
+/* Add your CSS styles here */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  nav ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .search-upload {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-upload input {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .upload-btn {
+    background-color: #ea4c89;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .verify-email {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 13px;
+    text-align: center;
+    padding: 40px 20px;
+    color: #544f4f;
+  }
+  .verify-email h2 {
+    color: #000;
+  }
+  .email-icon {
+    margin-bottom: 20px;
+    /* width: 150px; Set the width of the images */
+    height: 150px; /* Set the height of the images */
+  }
+  
+  .resend-link,
+  .change-link {
+    color: #ea4c89;
+    text-decoration: none;
+  }
+  
+footer {
+  background-color: #f5f5f5;
+  padding: 40px 0;
+  margin-left: 15px;
+}
+
+.footer-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.footer-links h3 {
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 5px;
+  font-size: 10px;
+}
+
+.footer-links a {
+  color: #333;
+  text-decoration: none;
+}
+
+#drib {
+  font-size: 15px;
+  margin-left: 10px;
+}

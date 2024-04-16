@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Your Profile</title>
+  <link rel="stylesheet" href="./profile.css">
+  <style>
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 style="font-family: Apple Chancery, cursive; color:#ec4dd4;">dribbble</h1>
+    <div class="top-text">
+      <h1>Welcome! Let's create your profile</h1>
+      <p>Let others get to know you better! You can do these later</p>
+      <h3><b>Add an Avatar!!</b></h3>
+    </div>
+    <div class="avatar">
+      <input type="file" id="avatar-input" accept="image/*" style="display: none;">
+      <label for="avatar-input" class="avatar-placeholder" onclick="openFile(event)">
+        <span>+ image</span>
+      </label>
+    </div>
+    
+    <div class="img-btn">
+      <p>Or choose from our default images</p>
+    </div>
+    <button id="default-images-btn">Choose image from defaults</button>
+    <div class="default-images" style="display: none;">
+      <img src="./styles/images/default1.jpg" alt="Default Image 1" class="default-image" onclick="selectDefaultImage('default1.jpg')">
+      <img src="./styles/images/default2.jpeg" alt="Default Image 2" class="default-image" onclick="selectDefaultImage('default2.jpeg')">
+    </div>
+    <div class="location">
+      <label for="location-input">Add your location</label>
+      <input type="text" id="location-input" placeholder="Enter a location">
+    </div>
+    <div class="selected-image-container" id="selected-image-container"></div>
+    <button id="next-btn" disabled>Next</button>
+  </div>
+  <script src="script.js">
+    
+  </script>
+</body>
+</html>
